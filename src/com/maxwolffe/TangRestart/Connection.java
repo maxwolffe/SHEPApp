@@ -1,7 +1,6 @@
 package com.maxwolffe.TangRestart;
 
 
-
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
