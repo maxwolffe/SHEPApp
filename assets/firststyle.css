@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: grey;
+}
+
+#top_bar {
+    background-color: black;
+    text-align: center;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+}
+
+#content {
+    background-color: white;
+    position: relative;
+    text-align: left;
+    color: black;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    padding: 14px 20px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+
