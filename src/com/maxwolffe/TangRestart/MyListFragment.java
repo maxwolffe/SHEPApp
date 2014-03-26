@@ -61,24 +61,27 @@ public class MyListFragment extends ListFragment {
 		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/Hepatitis.html");
 		  		break;
 		  	case 11:
-		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/Herpes.html");
+		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/HPV.html");
 		  		break;
 		  	case 12:
-		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/HIV.html");
+		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/Herpes.html");
 		  		break;
 		  	case 13:
-		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/MC.html");
+		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/HIV.html");
 		  		break;
 		  	case 14:
-		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/Scabies.html");
+		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/MC.html");
 		  		break;
 		  	case 15:
-		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/Syphilis.html");
+		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/Scabies.html");
 		  		break;
 		  	case 16:
-		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/Trichomoniasis.html");
+		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/Syphilis.html");
 		  		break;
 		  	case 17:
+		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/Trichomoniasis.html");
+		  		break;
+		  	case 18:
 		  		FactIntent.putExtra(MainActivity.EXTRA_MESSAGE, "file:///android_asset/UTI.html");
 		  		break;
 		  	default:
