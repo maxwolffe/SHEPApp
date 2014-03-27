@@ -141,9 +141,9 @@ public class MainActivity extends Activity {
 			public void onClick(DialogInterface dialog, int which) {
 				Intent i = new Intent(Intent.ACTION_SEND);
 				i.setType("message/rfc822");
-				i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"max.alan.wolffe@gmail.com"});
+				i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"robinmills@berkeley.edu"});
 				i.putExtra(Intent.EXTRA_SUBJECT, "Tang SHEP App Question");
-				i.putExtra(Intent.EXTRA_TEXT   , "Temporary Message Text");
+				i.putExtra(Intent.EXTRA_TEXT   , "Message");
 				try {
 					startActivity(Intent.createChooser(i, "Send mail..."));
 				} catch (android.content.ActivityNotFoundException ex) {
